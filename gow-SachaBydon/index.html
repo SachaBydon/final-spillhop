@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TODO ...">
+    <meta name="author" content="Sacha Bydon">
+    <title>SpillHop</title>
+    <link rel="icon" href="./src/img/icon.png" />
+    <script src="./pep.min.js"></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./src/style/main.css">
+</head>
+
+<body>
+    <canvas id="renderCanvas" touch-action="none"></canvas>
+    <div class="container hide" id="loading">
+        <h1>
+            Loading
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+        </h1>
+    </div>
+    <div id="home">
+        <div class="content">
+            <img src="./src/img/SpillHopStartScreenTXT.png" alt="">
+            <div class="begin">Commencer !</div>
+        </div>
+    </div>
+    <div class="container hide" id="deathImg">
+        <div></div>
+    </div>
+    <div class="container begin" id="stories">
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="nextIndicator" class="hide">
+            <div class="hide"><img src="./src/img/a-btn.png" alt=""></div>
+            <div><img src="./src/img/space.png" alt=""></div>
+        </div>
+    </div>
+    <div class="container" id="controls-mobile" style="display: none;">
+        <div class="directions">
+            <div id="left" class="mobile-btn">Left</div>
+            <div id="right" class="mobile-btn">right</div>
+        </div>
+        <div id="jump" class="mobile-btn">Jump</div>
+    </div>
+    <div class="container hide" id="gameUI">
+        <div id="levelName">Niveau: <span class="value"></span></div>
+        <div id="coins" class="valid">Coins: <span class="value"></span>/<span class="maxValue"></span></div>
+        <div id="deaths">Morts: <span class="value"></span></div>
+    </div>
+    <div class="container hide" id="levelList">
+        <h1>Niveaux</h1>
+        <ul></ul>
+    </div>
+    <div class="container" id="landscapeOnly">
+        <p>Tournez votre appareil en mode paysage</p>
+    </div>
+    <div class="container pyro" id="fireworks"></div>
+    <div class="container hide" id="gamepadIndicator">
+        <div><img src="./src/img/gamepad.svg" alt=""></div>
+    </div>
+</body>
+
+</html>

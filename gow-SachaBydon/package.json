@@ -1,0 +1,27 @@
+{
+  "name": "new-spillhop",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx webpack-dev-server",
+    "scss": "sass ./src/style/main.scss ./src/style/main.css --watch --style=compressed",
+    "build": "npx webpack && .\\build.sh",
+    "js-build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "Sacha BYDON",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^4.1.0",
+    "@babylonjs/loaders": "^4.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
