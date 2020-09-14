@@ -2,40 +2,40 @@
 
 ![banner](./gow-SachaBydon/src/img/banner.jpg) 
 
-## Présentation de l'histoire
-En date du 17 mai 2540, le vaisseau cargo ATOM sous le commandement de l’unité robotique autonome ERP-6750 s’est retrouvée aspiré dans le trou noire TON 618 suite à une défaillance technique de son vaisseau.  
+## Presentation of the story
+On 17 May 2540, the ATOM cargo ship under the command of the autonomous robotic unit ERP-6750 found itself sucked into the black hole TON 618 following a technical failure of its vessel.  
 
-Vous êtes ERP-6750 une unité robotique autonome pensante prête à tout pour rapporter les informations que vous avez découvertes au fond du trou noir.  
+You are ERP-6750, an autonomous robotic unit ready to do anything to bring back the information you discovered at the bottom of the black hole.  
 
-Effectivement, une étrange civilisation semble avoir réussi à survivre au fond du trou noir et grâce à un réseau de téléporteur vous avez peut-être une chance de vous en sortir et de rentrer chez vous avec des informations cruciales pour votre civilisation.
+Indeed, a strange civilisation seems to have managed to survive at the bottom of the black hole and thanks to a teleport network you may have a chance to get out of it and return home with crucial informations for your civilisation.  
 
 ## Description
-Spillhop - Lose you light ? est un jeu de plateforme développé par Sacha Bydon - Samuel Maugard - Allan Duvois  
+Spillhop - Lose you light? is a platform game developed by Sacha Bydon - Samuel Maugard - Allan Duvois  
 
-L'objectif sera d'avancer de niveau en niveau et de sortir petit a petit du trou noir dans lequel votre vaisseau s'est crashé.
+The objective is to advance from level to level and to get out of the black hole in which your ship crashed.  
 
-## Informations importantes
-- Le jeu est jouable à cette adresse: http://samuelmaugard.ovh/spillhop
-- il est possible de jouer à la mannette ainsi qu'au clavier avec les touches Q-D et Espace.  
-- Vous pouvez à tout moment accéder à la sélection de niveaux avec la touche échappe ou (start/select) sur manette.
-- La musique doit être activé manuellement en cliquant sur la petite icône en haut a gauche.  
-- Nous avons créé un éditeur de niveau qui nous a permis de créer les niveaux sur lesquelles vous jouer, il n'est pas terminé mais si vous êtes curieux il est disponile à cette adresse :
+## Important informations
+- The game can be played at this address: http://samuelmaugard.ovh/spillhop  
+- It is possible to play with a controller as well as the keyboard with the Q-D/arrow and Space keys.  
+- You can access the level selection at any time with the escape key or (start/select) on the controller.  
+- The music must be activated manually by clicking on the small icon in the upper left corner.  
+- We have created a level editor which allows us to create the levels you play on, it is not finished but if you are curious it is available at this address:
     http://samuelmaugard.ovh/spillhop-editor/  
-- Vidéo Youtube:  
+- Youtube video:  
 [![](http://img.youtube.com/vi/YeKdTNnXsqY/0.jpg)](http://www.youtube.com/watch?v=YeKdTNnXsqY "")  
 (http://www.youtube.com/watch?v=YeKdTNnXsqY)
 
 
 ## Installation
-* Télécharger [Node](https://nodejs.org/en/)
-* Installer les dépendances: ``` npm i ```
-* Lancer le serveur: ``` npm run serve ```
+* Download [Node](https://nodejs.org/en/)
+* Install the dependencies: ``` npm i ```
+* Start the server: ``` npm run serve ```
 
 ## Commandes
-* ``` npm run serve ```: Lance le serveur sur le port 8080.
-* ``` npm run scss ```: Ecoute les changements du fichier main.scss.
-* ``` npm run js-build ```: Compile le javascript.
-* ``` npm run build ```: Compile le Javascript, et ajoute tous les fichiers nécessaires au fonctionnement dans le dossier ```./dist```.
+* ``` npm run serve ```: Starts the server on port 8080.
+* ``` npm run scss ```: Listens for changes in main.scss.
+* ``` npm run js-build ```: Compile javascript.
+* ``` npm run build ```: Compile the Javascript, and add all the files needed to run the game in the  ```./dist``` folder.
 
-## Remerciements
-Merci à Nathan Miniere, Michel Buffa et Sébastien Vandenberghe pour leur soutient tout au long de notre projet.
+## Acknowledgements
+Thanks to Nathan Miniere, Michel Buffa and Sébastien Vandenberghe for their support throughout our project.
