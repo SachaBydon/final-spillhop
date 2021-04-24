@@ -15,7 +15,7 @@ Spillhop - Lose you light? is a platform game developed by Sacha Bydon - Samuel 
 The objective is to advance from level to level and to get out of the black hole in which your ship crashed.  
 
 ## Important informations
-- The game can be played at this address: http://samuelmaugard.ovh/spillhop  
+- The game can be played at this address: https://spillhop.vercel.app/  
 - It is possible to play with a controller as well as the keyboard with the Q-D/arrow and Space keys.  
 - You can access the level selection at any time with the escape key or (start/select) on the controller.  
 - The music must be activated manually by clicking on the small icon in the upper left corner.  
